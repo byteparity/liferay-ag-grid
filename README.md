@@ -32,6 +32,3 @@ For demo purpose we have set text filter like contains and equals for FirstName,
 
 ![ScreenShot](https://user-images.githubusercontent.com/24852574/38452718-72cfd6ec-3a67-11e8-988d-11b6b45c7314.jpg)
 
-## Implementation Details
-
-
