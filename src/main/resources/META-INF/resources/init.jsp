@@ -7,8 +7,8 @@
 <%@ taglib uri="http://liferay.com/tld/ui" prefix="liferay-ui" %>
 
 <c:set var = "now" value = "<%= new java.util.Date()%>" />
-<fmt:formatDate var="temp" type="time" value="${now}" />
-<script src="<%=request.getContextPath()%>/js/ag-grid-enterprise.js?${temp}"></script>
+<fmt:formatDate var="temp" pattern="s" type="time" value="${now}" />
+<script src="<%=request.getContextPath()%>/js/ag-grid.min.js?${temp}"></script>
 
 <liferay-theme:defineObjects />
 <portlet:defineObjects />
